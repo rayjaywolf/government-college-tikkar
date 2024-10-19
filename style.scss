@@ -8,6 +8,8 @@
 
 body {
   font-family: "Roboto", sans-serif;
+  overflow: -moz-scrollbars-vertical;
+  overflow-y: scroll;
 }
 
 .announcement-bar {
@@ -150,7 +152,7 @@ body {
     .principal-message {
       display: flex;
       flex-direction: column;
-      gap: 30px;
+      gap: 20px;
       h1 {
         font-size: 26px;
         text-align: center;
@@ -226,7 +228,7 @@ body {
     gap: 30px;
     .notice {
       border: 1px solid #dfdfdf;
-      border-top: 4px solid #28a745;
+      border-top: 3.5px solid #28a745;
       h1 {
         font-size: 20px;
         padding: 20px;
