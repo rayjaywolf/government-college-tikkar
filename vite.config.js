@@ -9,6 +9,7 @@ export default defineConfig({
         staff: "staff.html",
         gallery: "gallery.html",
         contact: "contact.html",
+        prospectus: "prospectus.pdf",
       },
     },
   },
